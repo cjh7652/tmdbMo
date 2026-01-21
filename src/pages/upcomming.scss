@@ -1,0 +1,55 @@
+.upCommingDetail{
+    margin-top: 150px;
+    h2{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .loding{text-align: center;}
+    .upCommingDetailData{
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: 0 0 20px #000;
+        padding: 50px;
+        .detailImgBox{
+            display: flex;
+            justify-content: center;
+            img{}
+        }
+        .detailTextBox{
+            line-height: 200%;
+            margin-top: 50px;
+            .textBoxTitle{
+                font-size: 18px;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+            .textBoxOriginal{
+                font-size: 14px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+            .textBoxTagline{margin-bottom: 10px;}
+            .textBoxOverview{margin-bottom: 20px;}
+            
+            .textBoxproduction_companies{
+                display: flex;
+               
+                >div{
+                     display: flex;
+                     flex-direction: column;
+                   
+                }
+            }
+            .textBoxgenres{
+                 display: flex;
+                
+                >div{
+                    
+                    >span{ margin-right: 10px; color: #f00}
+                }
+            }
+
+        }
+    }
+
+}
